@@ -427,6 +427,9 @@ body {
         list-style-type: none;
         margin-top: 25px;
 }
+.bars {
+        display: none;
+}
 .footer_links {
         margin-right: 10px;
 }
@@ -437,4 +440,18 @@ body {
         font-weight: 400;
         font-size: 14px;
         color: #198C36;
+}
+@media (min-width: 375px) {
+        .container {
+                width: 350px;
+        }
+        .nav_links {
+                display: none;
+        }
+        .bars {
+                display: block;
+                color: #F2EFE6;
+                background-color: #163A24;
+                font-size: 20px;
+        }
 }
